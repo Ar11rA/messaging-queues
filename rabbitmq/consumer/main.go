@@ -12,9 +12,9 @@ func failOnError(err error, msg string) {
 }
 
 func send(body string) {
-	from := "aritra119.26@gmail.com"
-	pass := "Caljam6673-11!"
-	to := "94.vivek.pawar@gmail.com"
+	from := "sender@gmail.com"
+	pass := "null"
+	to := "receiver@mail.com"
 
 	msg := "From: " + from + "\n" +
 		"To: " + to + "\n" +
